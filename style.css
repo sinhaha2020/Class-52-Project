@@ -1,0 +1,176 @@
+.one{
+    color: blue;
+    background-color: crimson;
+    border: 5px solid lightgreen;
+} 
+
+.two{
+    color: violet;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main img
+{
+    border: 5px dashed lawngreen;
+    border-radius: 50px;
+}
+
+.camel{
+    border: 5px solid cyan;
+}
+
+.chameleon{
+    border: 5px solid cyan;
+}
+
+.cicada{
+    border: 5px solid cyan;
+}
+
+.panda{
+    border: 5px solid cyan;
+}
+
+.pigeon{
+    border: 5px solid cyan;
+}
+
+.teddy{
+    border: 5px solid cyan;
+}
+
+.footer{
+    padding: 200px;
+}
+
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+}
+
+a:link{
+    color: rgb(207, 25, 25);
+}
+
+a:visited{
+    color: rgb(25, 0, 255);
+}
+
+a:hover{
+    color: rgb(255, 0, 0)
+}
+
+.chameleon p{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.chameleon img{
+    position: relative;
+    opacity: 1;
+}
+
+.chameleon:hover p{
+    opacity: 1;
+}
+
+
+.main img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.camel p{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.camel:hover p{
+    opacity: 1;
+}
+
+.camel img{
+    position: relative;
+    opacity: 1;
+}
+
+.cicada p{
+    position: absolute;
+    top: 550px;
+    left: 1150px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.cicada:hover p{
+    opacity: 1;
+}
+
+.cicada img{
+    position: relative;
+    opacity: 1;
+}
+
+.panda p{
+    position: absolute;
+    top: 870px;
+    left: 120px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.panda:hover p{
+    opacity: 1;
+}
+
+.panda img{
+    position: relative;
+    opacity: 1;
+}
+
+.pigeon p{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.pigeon:hover p{
+    opacity: 1;
+}
+
+.pigeon img{
+    position: relative;
+    opacity: 1;
+}
+
+.teddy p{
+    position: absolute;
+    top: 850px;
+    left: 880px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.teddy:hover p{
+    opacity: 1;
+}
+
+.teddy img{
+    position: relative;
+    opacity: 1;
+}
+
+
